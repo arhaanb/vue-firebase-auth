@@ -1,0 +1,48 @@
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+input {
+	width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+button {
+	font-family: 'poppins';
+}
+
+button.cool {
+	background-color: #6699ee;
+	border: none;
+	color: #fff;
+	margin-top: 1em;
+	transition: 0.5s;
+}
+
+button.cool:hover {
+	background-color: #25519e;
+}
+
+::-moz-selection {
+	/* Code for Firefox */
+	background: rgb(151, 208, 255);
+}
+
+::selection {
+	background: rgb(151, 208, 255);
+}
+
+.vh {
+	/* height: 60vh; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 5em;
+}

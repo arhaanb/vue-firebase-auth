@@ -1,0 +1,11 @@
+const firebaseConfig = {
+	apiKey: "ok",
+	authDomain: "ok",
+	databaseURL: "ok",
+	projectId: "ok",
+	storageBucket: "ok",
+	messagingSenderId: "ok",
+	appId: "ok"
+}
+
+module.exports = firebaseConfig;
